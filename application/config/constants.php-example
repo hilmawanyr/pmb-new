@@ -83,28 +83,3 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
-
-define('regkey', 'regis');
-define('APPKEY', 'Nzg3NTY2S2V5Rm9yUE1C');
-
-define('DBHOST', 'localhost:3308');
-define('DBUSER', 'root');
-define('DBPASS', 'hayeer22');
-define('DBNAME', 'db_registration');
-
-define('DBHOST_SIA_DEV', 'localhost:3308');
-define('DBUSER_SIA_DEV', 'root');
-define('DBPASS_SIA_DEV', 'hayeer22');
-define('DBNAME_SIA_DEV', 'db_stkip_bima');
-
-define('DBHOST_PROD', '');
-define('DBUSER_PROD', '');
-define('DBPASS_PROD', '');
-define('DBNAME_PROD', '');
-
-define('DBHOST_SIA_PROD', '');
-define('DBUSER_SIA_PROD', '');
-define('DBPASS_SIA_PROD', '');
-define('DBNAME_SIA_PROD', '');
-
-define('APIHOST', (ENVIRONMENT == 'development') ? 'http://localhost/sia-demo/api/api_pmb' : '');
